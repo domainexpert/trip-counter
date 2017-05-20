@@ -15,3 +15,8 @@ void MatMul(int Arows, int Acols, int Brows, int Bcols) {
     }
   }
 }
+
+int main() {
+  MatMul(DIM, DIM, DIM, DIM);
+  return 0;
+}
